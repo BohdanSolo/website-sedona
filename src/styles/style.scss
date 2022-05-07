@@ -1,0 +1,88 @@
+@import "vars";
+@import "normalize.scss";
+
+.page__body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+//Main navigation
+
+@import "main-nav";
+
+// Intro
+
+@import "intro";
+
+//Preferences about
+
+@import "pref-about";
+
+//Preferences:
+
+@import "pref";
+
+//Pref-list
+
+@import "pref-list";
+
+//Pref-small
+
+@import "pref-small";
+
+//Registration
+
+@import "registration";
+
+// Map
+
+@import "map";
+
+//Map
+
+@import "footer";
+
+
+/*FORM-HTML*/
+
+
+//forms
+@import "forms.scss";
+
+
+
+/*PHOTOS.HTML*/
+
+//Photos
+@import "photos.scss";

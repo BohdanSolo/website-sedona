@@ -1,0 +1,39 @@
+@import "vars";
+
+.map__wrapper {
+  position: relative;
+
+  width: 100%;
+  height: auto;
+
+  .map__img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.map__button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+
+  padding: 8px;
+
+  background-color: $main-color;
+
+  border-radius: 50%;
+  border: 5px solid white;
+  cursor: pointer;
+
+  transition: 0.3s linear;
+
+  &:hover {
+    background-color: #669ec0;
+  }
+
+  &:active {
+    background-color: #5496bd;
+    color: #e7e5e5;
+  }
+}

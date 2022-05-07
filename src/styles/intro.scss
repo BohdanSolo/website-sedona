@@ -1,0 +1,69 @@
+@import "vars";
+
+.intro {
+  background-color: #d4e6f0;
+  background-image: url("../img/index/intro-triangle.svg"),
+    url("../img/index/back-desktop.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom, center;
+  background-size: cover, cover;
+
+  @media (max-width: 370px) {
+    background-position: bottom, center 20px;
+  }
+
+  @media (min-width: 768px) {
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom, center;
+    background-size: contain, cover;
+  }
+  @media (min-width: 1200px) {
+    background-size: contain, cover;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .intro {
+    background-image: url("../img/index/2x-back-desktop.jpg");
+  }
+}
+
+.intro__img {
+  display: block;
+  margin: 0 auto;
+  padding: 89px 0;
+
+  @media (min-width: 768px) {
+    padding: 77px 0 90px 0;
+  }
+
+  @media (min-width: 1200px) {
+  }
+}
+
+
+//Form and reviews
+
+.intro__media {
+  background-position: bottom, bottom;
+  @media (min-width: 768px) {
+    background-position: bottom, bottom;
+  }
+  @media (min-width: 1200px) {
+    background-position: bottom, bottom;
+  }
+}
+
+
+.intro__img-form {
+  display: block;
+  margin: 0 auto;
+  padding: 50px 0 65px 0;
+
+  @media (min-width: 768px) {
+    padding: 75px 0 110px 0;
+  }
+  @media (min-width: 1200px) {
+    padding: 100px 0 110px 0;
+  }
+}

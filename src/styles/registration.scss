@@ -1,0 +1,55 @@
+@import "vars";
+
+.registration {
+  width: 100%;
+}
+
+.registration-inner {
+  width: 84%;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.registration__title {
+  padding-top: 33px;
+
+  @include title-text;
+}
+.registration__text {
+  margin-bottom: 26px;
+
+  line-height: 24px;
+}
+.registration__br {
+  display: none;
+  @media (min-width: 768px) {
+    display: inline;
+  }
+}
+
+.registration__button {
+  width: 100%;
+  max-width: 458px;
+  margin-bottom: 50px;
+  padding: 13px 32px;
+
+  @include title-text;
+  text-transform: uppercase;
+  color: white;
+
+  border: none;
+  background-color: $main-color;
+
+  cursor: pointer;
+  transition: background-color 0.3s linear;
+
+  &:hover {
+    background-color: #669ec0;
+  }
+
+  &:active {
+    background-color: #5496bd;
+    color: #e7e5e5;
+  }
+}

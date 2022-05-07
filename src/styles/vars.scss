@@ -1,0 +1,28 @@
+$main-color: #81B3D2;
+$main-color-2: #669EC0;
+$main-color-3: #5496BD;
+$border: 1px solid #E5E5E5;
+
+@mixin title-text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+@mixin form-text {
+  padding: 18px 22px 14px;
+  margin: 0;
+
+  font-weight: 600;
+  text-transform: none;
+  border: none;
+
+  background-color: #F2F2F2;
+  color: black;
+
+  &::placeholder {
+    color: black;
+  }
+}
+

@@ -17,5 +17,5 @@
 - Adaptive images extensions (webp and jpg);
 - Burger menu;
 - Custom checkboxes;
-- Accessibility;
+- Accessibility; 
 - Optimized project build with Gulp;
